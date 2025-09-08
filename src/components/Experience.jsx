@@ -4,7 +4,7 @@ import { div, span } from "motion/react-client";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4 px-14">
       <h1 className="my-20 text-center text-4xl">Experience</h1>
 
       {EXPERIENCES.map((experience, index) => (
